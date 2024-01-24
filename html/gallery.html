@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Concept</title>
+    
+    <script src="https://kit.fontawesome.com/b7e3862d97.js" crossorigin="anonymous"></script>
+    <script src="../js/mobile-nav.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html"><img src="https://placehold.jp/150x150.png"></a>
+            <div class="nav">
+                <!--Open / Close Mobile btns-->
+                <span onclick="openNav()"><i class="fa-solid fa-bars openBtn"></i></span>
+
+                <div id="overlay">
+                    <ul>
+                        <span onclick="closeNav()"><i class="fa-solid fa-xmark closeBtn"></i></span>
+
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html" class="action-callout">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery">
+                <!--Dynamically pulled image content here-->
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+                <img src="https://placehold.jp/500x500.png">
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div>
+            FOOTER
+        </div>
+    </footer>
+</body>
+</html>

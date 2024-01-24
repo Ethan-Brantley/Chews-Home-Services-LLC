@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Concept</title>
+    
+    <script src="https://kit.fontawesome.com/b7e3862d97.js" crossorigin="anonymous"></script>
+    <script src="../js/mobile-nav.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html"><img src="https://placehold.jp/150x150.png"></a>
+            <div class="nav">
+                <!--Open / Close Mobile btns-->
+                <span onclick="openNav()"><i class="fa-solid fa-bars openBtn"></i></span>
+
+                <div id="overlay">
+                    <ul>
+                        <span onclick="closeNav()"><i class="fa-solid fa-xmark closeBtn"></i></span>
+
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html" class="action-callout">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <img src="https://placehold.jp/2000x300.png">
+        </div>
+
+        <div>
+            <!--Contact Form Here-->
+            <form name="contact" method="POST" data-netlify="true" class="contact-form">
+                <div style="display:inline-block">
+                <p>
+                    <label><input type="text" name="first-name" placeholder="First Name" /></label>
+                    <label><input type="text" name="last-name" placeholder="Last Name" /></label>
+                </p>
+                <p>
+                  <label><input type="email" name="email" placeholder="Email Address" /></label>
+                </p>
+                <p>
+                  <label><textarea name="message" placeholder="Message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+                </div>
+              </form>
+        </div>
+
+        <div class="content col-flex">
+            <h2 class="centered">Lorem Ipsum</h2>
+
+            <div class="card-list">
+                <div class="card" style="text-align:center;">
+                    Instagram
+                </div>
+                <div class="card" style="text-align:center;">
+                    Phone  
+                </div>
+                <div class="card" style="text-align:center;">
+                    Email
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer>
+        <div>
+            FOOTER
+        </div>
+    </footer>
+</body>
+</html>
