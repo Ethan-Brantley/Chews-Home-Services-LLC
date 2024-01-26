@@ -371,6 +371,12 @@ footer {
         justify-content: space-between;
 
     }
+
+    .square-photo {
+
+        padding: 50px;
+
+    }
     
 }
 
