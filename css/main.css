@@ -283,6 +283,7 @@ footer {
 
     .openBtn {
 
+        display: block;
         position: absolute;
         right: 5%;
         top: 5%;
@@ -294,6 +295,7 @@ footer {
 
     .closeBtn {
 
+        display: block;
         position: absolute;
         z-index: 1;
         right: 5%;
@@ -356,13 +358,11 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
     .openBtn {
-        width: 0%;
-        overflow: hidden;
+        display: none;
     }
 
     .closeBtn {
-        width: 0%;
-        overflow: hidden;
+        display: none;
     }
 
     header {
