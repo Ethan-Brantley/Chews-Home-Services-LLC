@@ -254,6 +254,13 @@ footer {
 
 }
 
+#overlay {
+
+    width: 0vw;
+    height: 0vh;
+
+}
+
 
 /* Mobile + Tablets*/
 @media only screen and (max-width: 768px) {
@@ -356,7 +363,7 @@ footer {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 1024px) {
     .openBtn {
         display: none;
     }
@@ -375,6 +382,13 @@ footer {
     .square-photo {
 
         padding: 50px;
+
+    }
+
+    #overlay {
+
+        width: auto;
+        height: auto;
 
     }
     
