@@ -23,6 +23,7 @@ body {
 
     margin: auto;
 
+
 }
 
 .flex {
@@ -239,13 +240,6 @@ input, textarea {
 
 }
 
-.card-list {
-
-    display:grid;
-    grid-template-columns: [first] 20% auto [last] 20%;
-
-}
-
 footer {
 
     padding: 20px;
@@ -386,6 +380,32 @@ footer {
 
         display: inline-block;
         height: 100%;
+
+    }
+
+    .content {
+
+        flex-direction: row;
+
+    }
+
+    .testimonials {
+
+        flex-direction: row;
+
+    }
+
+    .card-list {
+
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .left, .right {
+
+        flex-grow: 1;
+        flex-basis: 0;
 
     }
     
