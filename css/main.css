@@ -258,6 +258,7 @@ footer {
 
     width: 0vw;
     height: 0vh;
+    overflow: hidden;
 
 }
 
@@ -270,7 +271,6 @@ footer {
         position: fixed;
         top: 0px;
         margin: 0px;
-        overflow: hidden;
         background-color: white;
 
     }
