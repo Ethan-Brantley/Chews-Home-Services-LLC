@@ -259,34 +259,26 @@ footer {
     width: 0vw;
     height: 0vh;
     overflow: hidden;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    background-color: white;
+    z-index: 1;
 
 }
 
+#overlay ul {
 
-/* Mobile + Tablets*/
-@media only screen and (max-width: 768px) {
-    #overlay {
-
-        width: 0vw;
-        position: fixed;
-        top: 0px;
-        margin: 0px;
-        background-color: white;
-
-    }
-
-    #overlay ul {
-
-        height: 80%;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
+    height: 80%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
         
 
-    }
+}
 
     .openBtn {
 
@@ -349,9 +341,6 @@ footer {
     
     }
 
-
-}
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -388,7 +377,15 @@ footer {
     #overlay {
 
         width: auto;
-        height: auto;
+        height: 100%;
+        position: relative;
+
+    }
+
+    #overlay ul {
+
+        display: inline-block;
+        height: 100%;
 
     }
     
