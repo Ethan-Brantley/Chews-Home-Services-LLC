@@ -32,6 +32,19 @@ body {
 
 }
 
+footer .flex img {
+
+    max-width: 150px;
+    padding: 0px 50px;
+
+}
+
+footer .flex {
+
+    justify-content: center;
+
+}
+
 .col-flex {
 
     display: flex;
