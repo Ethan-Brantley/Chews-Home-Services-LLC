@@ -40,9 +40,15 @@ body {
 
 }
 
+h2 {
+
+    text-align: center;
+
+}
+
 .card {
 
-    padding: 50px;
+    padding: 25px 50px;
 
 }
 
@@ -94,7 +100,7 @@ body {
 .nav ul li a.action-callout {
 
     background-color: #24272b;
-    padding: 25px;
+    padding: 15px 25px;
     border-radius: 5%;
     color: #d9dbde;
     text-align: center;
@@ -371,7 +377,7 @@ footer {
 
     .square-photo {
 
-        padding: 50px;
+        padding: 25px;
 
     }
 
@@ -420,6 +426,15 @@ footer {
     .hero img {
 
         height: 500px;
+
+    }
+
+    .flex-list {
+
+        display: flex;
+        margin: 100px;
+        justify-content: center;
+        align-items: center;
 
     }
     
