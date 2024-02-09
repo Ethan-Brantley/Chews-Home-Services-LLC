@@ -106,7 +106,7 @@ h2 {
 
 .nav ul li a:hover {
 
-    background-color: #24272b79;
+    border-bottom: 3px solid #0d243f;
 
 }
 
@@ -270,7 +270,8 @@ footer {
 
     padding: 20px;
     text-align: center;
-    background-color:  rgb(185, 185, 185);
+    color: rgb(255, 254, 237);
+    background-color:  #0d243f;
 
 }
 
