@@ -211,7 +211,7 @@ input, textarea {
 
 .testimonial-list {
 
-    margin: 100px 100px;
+    margin: 100px 25px;
     display: flex;
     justify-content: space-between;
     
@@ -465,6 +465,7 @@ footer {
     .testimonial-list {
 
         flex-direction: row;
+        margin: 100px 100px;
 
     }
 
