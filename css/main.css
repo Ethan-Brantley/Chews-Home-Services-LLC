@@ -3,6 +3,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0px;
+    background-color: #e0e0e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -36,6 +38,7 @@ footer .flex img {
 
     max-width: 150px;
     padding: 0px 50px;
+    margin-top: 15px;
 
 }
 
@@ -203,7 +206,7 @@ input, textarea {
 
 }
 
-.testimonials {
+.testimonial-list {
 
     margin: 100px 100px;
     display: flex;
@@ -211,10 +214,48 @@ input, textarea {
     
 }
 
-.testimonials div {
+.testimonial {
 
-    border: 1px solid black;
-    padding: 75px 45px;
+    padding: 25px;
+    position: relative;
+
+}
+
+.testimonial-attribution {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8em;
+    padding: 15px 0px;
+    border-bottom: #0d243f 3px solid;
+
+}
+
+.testimonial-attribution::before {
+
+    content: "-"
+
+}
+
+.testimonial-body {
+
+
+}
+
+.testimonial-body::before, .testimonial-body::after {
+
+
+}
+
+.testimonial-body::before {
+
+    content: open-quote;
+
+
+}
+
+.testimonial-body::after {
+
+    content: close-quote;
 
 }
 
@@ -268,6 +309,7 @@ input, textarea {
 
 footer {
 
+    margin-top: 30px;
     padding: 20px;
     text-align: center;
     color: rgb(255, 254, 237);
@@ -283,7 +325,7 @@ footer {
     position: fixed;
     top: 0px;
     margin: 0px;
-    background-color: white;
+    background-color: #e0e0e0;
     z-index: 1;
 
 }
@@ -331,7 +373,7 @@ footer {
 
     }
 
-    .testimonials {
+    .testimonial-list {
 
         flex-direction: column;
 
@@ -417,7 +459,7 @@ footer {
 
     }
 
-    .testimonials {
+    .testimonial-list {
 
         flex-direction: row;
 
