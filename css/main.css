@@ -36,8 +36,8 @@ body {
 
 footer .flex img {
 
-    max-width: 150px;
-    padding: 0px 50px;
+    max-width: 100px;
+    padding: 0px 25px;
     margin-top: 15px;
 
 }
@@ -45,6 +45,9 @@ footer .flex img {
 footer .flex {
 
     justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
 
 }
 
