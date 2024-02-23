@@ -220,6 +220,7 @@ input, textarea {
 .testimonial {
 
     padding: 25px;
+    margin-top: 25px;
     position: relative;
 
 }
@@ -466,6 +467,12 @@ footer {
 
         flex-direction: row;
         margin: 100px 100px;
+
+    }
+
+    .testimonial {
+
+        margin-top: 0px;
 
     }
 
