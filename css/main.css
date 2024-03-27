@@ -71,14 +71,16 @@ h2 {
 
 }
 
-.logo {
+#logo {
 
     background-color: gray;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-height: 150px;
+    margin: 10px;
+}
+
+#tagline {
+
+    display: none;
 
 }
 
@@ -438,6 +440,7 @@ footer {
     .square-photo {
 
         padding: 25px;
+        width: 450px;
 
     }
 
@@ -502,6 +505,15 @@ footer {
         margin: 100px;
         justify-content: center;
         align-items: center;
+
+    }
+
+    #tagline {
+
+        display: block;
+        width: 350px;
+        font-size: 1.4em;
+        margin-left: 25px;
 
     }
     
