@@ -25,6 +25,20 @@ body {
 
     margin: auto;
 
+}
+
+.vertical-content {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.call-to-action-txt {
+
+    font-size: 1.5em;
+    text-align: center;
+    margin: 50px;
 
 }
 
@@ -55,19 +69,22 @@ footer .flex {
 
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 0px 100px;
+    align-self: flex-start;
+
+}
+
+.fa {
+
+    text-decoration: none;
+    color: #0d243f;
+    font-size: 2em;
 
 }
 
 h2 {
 
     text-align: center;
-
-}
-
-.card {
-
-    padding: 25px 50px;
 
 }
 
@@ -406,8 +423,14 @@ footer {
     .card-list {
 
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
     
+    }
+
+    .card {
+
+        padding: 25px 0px;
+
     }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -502,6 +525,7 @@ footer {
     .flex-list {
 
         display: flex;
+        flex-direction: row;
         margin: 100px;
         justify-content: center;
         align-items: center;
@@ -514,6 +538,12 @@ footer {
         width: 350px;
         font-size: 1.4em;
         margin-left: 25px;
+
+    }
+
+    .card {
+
+        padding: 25px 50px;
 
     }
     
